@@ -10,7 +10,8 @@ const Hero = () => {
 
       transition: {
         staggerChildren: 0.07,
-        delayChildren: 0.4,
+        delayChildren: 1.3,
+        delay: 0.8,
       },
     },
     hidden: {
@@ -24,12 +25,12 @@ const Hero = () => {
       y: 0,
       x: 0,
       transition: {
-        y: { stiffness: 1000, velocity: -100 },
+        y: { stiffness: 1000, velocity: 100 },
       },
     },
     hidden: {
       opacity: 0,
-      y: 50,
+      y: 90,
       x: 0,
     },
   };
@@ -113,7 +114,7 @@ const Hero = () => {
                 x: 35,
                 skewX: -12,
               }}
-              transition={{ duration: 0.3, ease: "easeOut" }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
               className={``}
               key={link.label}
             >
