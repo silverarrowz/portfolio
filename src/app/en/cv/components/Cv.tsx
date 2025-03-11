@@ -20,8 +20,8 @@ const Cv = () => {
   useEffect(() => {
     const updateScale = () => {
       const screenWidth = window.innerWidth;
-      if (screenWidth < 420) setScale(0.5);
-      if (screenWidth < 540) setScale(0.7);
+      if (screenWidth < 425) setScale(0.3);
+      else if (screenWidth < 540) setScale(0.7);
       else if (screenWidth < 640) setScale(0.8);
       else if (screenWidth < 1024) setScale(1);
       else if (screenWidth < 1280) setScale(1.2);

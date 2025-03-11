@@ -84,7 +84,7 @@ export default async function Page({
         </FadeOutSection>
 
         <FadeOutSection>
-          <div className=" bg-background-alt -mx-24 px-24 pt-16 pb-24">
+          <div className=" bg-background-alt -mx-10 md:-mx-24 px-24 pt-16 pb-24">
             <h2 className="font-serif text-4xl">Технологии</h2>
 
             <ul className="mt-16 w-full mx-auto flex flex-col md:flex-row justify-between gap-12">
@@ -112,7 +112,7 @@ export default async function Page({
         </FadeOutSection>
 
         <section className="grid grid-cols-12 relative">
-          <div className="col-span-12 md:col-span-3 sticky h-[100vh] top-0 pt-16 md:pt-72">
+          <div className="col-span-12 md:col-span-3 md:sticky md:h-[100vh] top-0 mt-16 md:pt-72">
             <h2 className="text-3xl md:-rotate-90 md:text-7xl md:font-serif md:uppercase">
               Галерея
             </h2>
