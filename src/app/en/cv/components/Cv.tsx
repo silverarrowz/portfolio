@@ -36,7 +36,7 @@ const Cv = () => {
   return (
     <Document
       className={"animate-fade-in-up opacity-0"}
-      file={"/cv.pdf"}
+      file={"/cv1.pdf"}
       onLoadSuccess={onDocumentLoadSuccess}
       externalLinkTarget="_blank"
     >

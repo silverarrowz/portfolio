@@ -12,7 +12,7 @@ const Page = () => {
           <a
             role="button"
             className="rounded-md px-4 py-2 bg-slate-200 hover:bg-cyan-200 transition-all duration-300 flex gap-2 items-center hover:translate-y-1 hover:shadow-[0px_0px_32px_6px_rgba(83,234,253,0.63)] animate-fade-in opacity-0"
-            href="/cv.pdf"
+            href="/cv1.pdf"
             download
           >
             <LucideDownload size={20} />

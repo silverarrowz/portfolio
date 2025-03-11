@@ -16,7 +16,7 @@ export const PROJECTS_RU: Array<Project> = [
     github: 'https://github.com/silverarrowz/nextjs-ecommerce-midori',
     description:
       "Современный интернет-магазин, разработанный с помощью Next.js с подключенной системой управления контентом Payload CMS",
-    images: ["/images/midori2.png", "/images/midori5.png", "/images/midori7.png", "/images/midori6.png", "/images/midori8.png", "/images/midori9.png"],
+    images: ["/images/midori2.webp", "/images/midori5.webp", "/images/midori7.webp", "/images/midori6.webp", "/images/midori8.webp", "/images/midori9.webp"],
     stack: [
       { title: "Next.js 14", description: "Современный фреймворк, дополняющий React множеством новых полезных функций, таких как SSR и оптимизация изображений.",
         link: "https://nextjs.org/" ,
@@ -41,7 +41,7 @@ export const PROJECTS_RU: Array<Project> = [
     
     description:
       "Сайт для салона красоты с возможностью онлайн-записи + панель управления для админов",
-    images: ["/images/gombreich2.png", "/images/gombreich1.png", "/images/gombreich3.png", "/images/gombreich4.png", "/images/gombreich5.png"],
+    images: ["/images/gombreich2.webp", "/images/gombreich1.webp", "/images/gombreich3.webp", "/images/gombreich4.webp", "/images/gombreich5.webp"],
     stack: [
       { title: "React 18", description: "Одна из популярнейших JS-библиотек, позволяющая создавать эффективные веб-приложения любой сложности.", 
         link: "https://react.dev/" ,
@@ -68,7 +68,7 @@ export const PROJECTS_EN: Array<Project> = [
     github: 'https://github.com/silverarrowz/nextjs-ecommerce-midori',
     description:
       "A modern online store built with Next.js, integrated with the Payload CMS content management system.",
-    images: ["/images/midori2.png", "/images/midori5.png", "/images/midori7.png", "/images/midori6.png", "/images/midori8.png", "/images/midori9.png"],
+    images: ["/images/midori2.webp", "/images/midori5.webp", "/images/midori7.webp", "/images/midori6.webp", "/images/midori8.webp", "/images/midori9.webp"],
     stack: [
       { title: "Next.js 14", description: "A modern framework that enhances React with many new useful features, such as SSR and image optimization.",
         link: "https://nextjs.org/" ,
@@ -93,9 +93,9 @@ export const PROJECTS_EN: Array<Project> = [
     
     description:
       "A beauty salon website with online booking + an admin panel.",
-    images: ["/images/gombreich2.png", "/images/gombreich1.png", "/images/gombreich3.png", "/images/gombreich4.png", "/images/gombreich5.png"],
+    images: ["/images/gombreich2.webp", "/images/gombreich1.webp", "/images/gombreich3.webp", "/images/gombreich4.webp", "/images/gombreich5.webp"],
     stack: [
-      { title: "React 18", description: "Одна из популярнейших JS-библиотек, позволяющая создавать эффективные веб-приложения любой сложности.", 
+      { title: "React 18", description: "One of the most popular JavaScript libraries, enabling the creation of efficient web applications of any complexity.", 
         link: "https://react.dev/" ,
        },
       { title: "Supabase", description: "Supabase is a platform offering a comprehensive backend solution, including a reliable Postgres database, real-time data synchronization, and user authentication.", 

@@ -72,7 +72,7 @@ const Page = () => {
             </blockquote>
             <div>
               <img
-                src="/images/about1.png"
+                src="/images/about.webp"
                 alt="Диана Портрет"
                 className="w-full h-full object-cover"
               />
