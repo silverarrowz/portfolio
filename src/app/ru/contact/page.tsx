@@ -54,7 +54,7 @@ const Page = () => {
             </div>
 
             <a
-              href="/cv1.pdf"
+              href="/cv.pdf"
               download
               className="text-sm underline transition-colors duration-200 hover:text-cyan-300"
             >

@@ -1,7 +1,7 @@
 import Sidebar from "../../components/Sidebar";
 import Image from "next/image";
 import FadeOutSection from "@/lib/FadeOutSection";
-import { PROJECTS_EN } from "@/lib/utils";
+import { PROJECTS_RU } from "@/lib/utils";
 
 export default async function Page({
   params,
@@ -9,7 +9,7 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const project = PROJECTS_EN.find((p) => p.slug === slug);
+  const project = PROJECTS_RU.find((p) => p.slug === slug);
   return (
     <div className="">
       <Sidebar navLink={{ href: `/ru/projects`, label: "Проекты" }} />
